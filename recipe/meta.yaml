@@ -1,5 +1,5 @@
 {% set name = "protected-classification" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.5" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/protected-classification-{{ version }}.tar.gz
-  sha256: 5e0465bba3d8755314c558d8180ad3986e945b24dd6a9239800cbfbd2c41f17e
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/protected-classification-{{ version }}.tar.gz
+  sha256: 2e37927fe1199db43817019ae0cc3a4c719a59a6d5406ebb09589ad4c888ce65
 
 build:
   number: 0
